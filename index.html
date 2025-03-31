@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profil Pribadi</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigasi -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+    <div class="container">
+        <a class="navbar-brand" href="#"><i class="bi bi-person-circle"></i> Profil Saya</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="tentang.html"><i class="bi bi-info-circle"></i> Tentang Saya</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontak.html"><i class="bi bi-envelope"></i> Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header dengan Video -->
+<header class="text-white text-center position-relative">
+    <video autoplay loop muted playsinline class="w-100" style="height: 400px; object-fit: cover; filter: brightness(30%);">
+        <source src="video/background.mp4" type="video/mp4">
+    </video>
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-light">
+        <img src="img/profil.jpg" alt="Foto Profil" class="rounded-circle mb-3 shadow-lg border border-light" width="150">
+        <h1 class="fw-bold">Apdione Yona K.</h1>
+        <p class="fw-light">
+            <i class="bi bi-mortarboard glow-icon"></i> Mahasiswa | 
+            <i class="bi bi-controller glow-icon"></i> Gamer | 
+            <i class="bi bi-music-note glow-icon"></i> Gitaris
+        </p>
+    </div>
+</header>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2025 Dione. Semua Hak Dilindungi.</p>
+    <div>
+        <a href="https://github.com/dion2804" class="text-white me-3"><i class="bi bi-github"></i></a>
+        <a href="https://wa.me/6281369610538" class="text-white me-3"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/dionrajinkelas" class="bi bi-instagram"></i></a>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
